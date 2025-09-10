@@ -1,6 +1,7 @@
-body{
-        background-color: beige;
+body {
+    background-color: beige;
 }
+
 #wrapper {
     margin-left: 150px;
     margin-right: 150px;
@@ -20,70 +21,14 @@ body{
     align-content: center;
 }
 
-/*background-image:url("me2.jpg");*/
-
-#headerTxt {
-    padding-left: 20px;
-    padding-bottom: 100px;
-    color: #FFF;
-    padding-top: 18px;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    margin-top: 2px
-}
-
-/*color: #FF8080  Maron #a5063f*/
-/*#innerWrapper{float:left; height:900px}*/
-#menu {
-    background: #2297a6;
-    border-right: solid #CCCCCC thin;
-    border-left: solid #CCCCCC thin;
-    color: #FFF;
-    font-size: 16px;
-    float: right;
-    height: 3000px;
-    width: 23%;
-    padding-right: 10px;
-    z-index: 10
-}
-
-#meue {
-    background-color: #fcab3f;
-    text-decoration-color: white
-}
-
-#menu h4 {
-    color: #f9e9a1;
-    font-size: 20px;
-    margin: 20px
-}
-
-#menu ul {
-    list-style: none;
-    margin-left: -10px
-}
-
-#menu ul li {
-    padding-bottom: 10px;
-}
-
-#menu a {
-    color: #FFF;
-    text-decoration: none
-}
-
-
 a.button {
     padding: 6px;
     border: 1px outset buttonborder;
     border-radius: 7px;
     color: black;
-    /*buttontext;*/
     background-color: azure;
     text-decoration: none;
     margin: 20px;
-    
-
-
 }
 
 content {
@@ -116,25 +61,21 @@ content {
 #pageContent img {
 
     width: 70%;
-
 }
 
 #pageContent li {
     padding-bottom: 10px;
 }
 
-.listPoint {
-    color: #FF6600;
-}
-
-#pageLink {
+#leftEdge {
     float: left;
     border-left: solid #CCCCCC thin;
     background: #2297a6;
     width: 1%;
     height: 2900px;
 }
-#pageLink2 {
+
+#rightEdge {
     float: right;
     border-left: solid #CCCCCC thin;
     background: #2297a6;
@@ -155,22 +96,6 @@ content {
 
 #footer p {
     padding-left: 10px;
-}
-
-.nHeader {
-    color: #FF6633
-}
-
-#saladR {
-    padding-right: 20px
-}
-
-label {
-    padding: 50Px;
-}
-
-textarea {
-    height: 100px
 }
 
 #pageContent p {
