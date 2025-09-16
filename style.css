@@ -2,12 +2,42 @@ body {
     background-color: beige;
 }
 
+#pageContent ul {
+    list-style: disc;
+    padding-left: 1.25rem;
+    max-width: 800px;
+}
+
+
+#pageContent li {
+    display: flow-root;
+    margin-bottom: 12px;
+    line-height: 1.5;
+   
+}
+
+#pageContent ul img {
+
+    float: right;
+    width: 150px;
+    
+    height: auto;
+    margin: 0 0 8px 12px;
+   
+    border-radius: 8px;
+    object-fit: cover;
+     border: 2px dashed coral;
+   
+
+}
+
 #wrapper {
     margin-left: 150px;
     margin-right: 150px;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     height: 3000px;
     background-color: white;
+    color:
 }
 
 #header {
@@ -41,6 +71,7 @@ content {
     color: #333333;
     line-height: 1.6;
     width: 95%;
+    height: 700px;
 }
 
 #content h2 {
