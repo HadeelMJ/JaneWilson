@@ -47,8 +47,10 @@ body {
     border: solid #CCCCCC thin;
     border-bottom: solid #f9e9a1 10px;
     border-top: solid #2297a6 10px;
-    padding-top: 5px;
+    padding-top: 20px;
     align-content: center;
+    text-align: center;
+    
 }
 
 a.button {
